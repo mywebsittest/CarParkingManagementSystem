@@ -21,7 +21,7 @@ class VehicleSeeder extends Seeder
     {
         $faker = Factory::create();
 
-        $cities = ["Erbil", 'Silemani', 'Duhok', 'Halabja', 'Kerkuk'];
+        $cities = ["Kampala", 'Jinja', 'Gulu', 'Mbarara', 'Lira'];
         $carNames = [
             "Abarth",
             "Alfa Romeo",

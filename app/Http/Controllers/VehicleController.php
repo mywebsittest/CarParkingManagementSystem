@@ -28,7 +28,7 @@ class VehicleController extends Controller
     {
       try {
         Vehicle::updateOrCreate(['id' => $request->vehicle_id], $request->except('vehicle_id', 'status') + ['status' => 0]);
-        return redirect()->route('vehicles.index')->with('success',  $request->vehicle_id ? 'Vehicle Updated Successfully!!' : 'Vehicle Created Successfully!!');
+        return redirect()->route('vehicles.index')->with('success',  $request->vehicle_id ? 'Vehicle Updated Successfully!!' : 'Vehicle Registered Successfully!!');
       } catch (\Throwable $th) {
         return redirect()->route('vehicles.create')->with('error', 'Vehicle Cannot be Create please check the inputs!!');
       }

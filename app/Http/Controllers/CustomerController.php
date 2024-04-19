@@ -23,7 +23,7 @@ class CustomerController extends Controller
     {
         Customer::updateOrCreate(['id' => $request->customer_id], $request->except('customer_id'));
 
-        return redirect()->route('customers.index')->with('success', 'Customer Created Successfully!!');
+        return redirect()->route('customers.index')->with('success', 'Customer registered successfully!!');
     }
 
 

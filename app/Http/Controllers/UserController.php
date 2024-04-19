@@ -28,7 +28,7 @@ class UserController extends Controller
             "password"=>bcrypt($request->password),
         ]);
 
-        return redirect()->route('user.index')->with('success', 'User Created Successfully!!');
+        return redirect()->route('user.index')->with('success', 'Admin Registered Successfully!!');
     }
 
     /**
@@ -76,6 +76,6 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         $user->delete();
-        return redirect()->route('user.index')->with('success', 'User Deleted Successfully!!');
+        return redirect()->route('user.index')->with('success', 'Admin Deleted Successfully!!');
     }
 }

@@ -1,4 +1,6 @@
-<form action="{{ route('vehiclesIn.store') }}" class="forms-sample" method="POST">
+
+
+<form id="myForm" action="{{ route('vehiclesIn.store') }}" class="forms-sample" method="POST">
     @csrf
     <div class="row">
         <div class="col-md-4">
@@ -9,8 +11,8 @@
                     @foreach ($vehicles as $vehicle)
                         <option value="{{ $vehicle->id }}" @if (isset($vehiclesIn))
                             {{ $vehiclesIn->vehicle_id == $vehicle->id ? 'selected' : '' }}
-                    @endif>
-                    {{ $vehicle->name .' - '. $vehicle->registration_number }}</option>
+                        @endif>
+                        {{ $vehicle->name .' - '. $vehicle->registration_number }}</option>
                     @endforeach
                 </select>
                 @if (isset($vehiclesIn))
@@ -24,8 +26,8 @@
                 @foreach (getParkingareas() as $parking_area)
                     <option value="{{ $parking_area }}" @if (isset($vehiclesIn))
                         {{ $vehiclesIn->parking_area == $parking_area ? 'selected' : '' }}
-                @endif>
-                {{ $parking_area }}</option>
+                    @endif>
+                    {{ $parking_area }}</option>
                 @endforeach
             </select>
         </div>
@@ -39,5 +41,7 @@
     </div>
 
     <button type="submit" class="btn btn-primary mr-2">Submit</button>
-    <button class="btn btn-light">Cancel</button>
+    <button class="btn btn-light" type="reset">Cancel</button>
 </form>
+
+

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
-<div class="page-header">
+<div style="background-color:rgb(214, 152, 89)" class="page-header">
     <div class="row align-items-end">
         <div class="col-lg-10">
             <div class="page-header-title">
-                <i class="ik ik-inbox bg-blue"></i>
+                <i class="ik ik-inbox bg-orange"></i>
                 <div class="d-inline">
-                    <h5>Vehicles In List</h5>
+                    <h5>List Vehicles In </h5>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="card-body">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Current In Vehicles</a>
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Vehicles Currently In </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Vehicles History</a>

@@ -28,7 +28,7 @@ class VehicleInController extends Controller
     {
         VehicleIn::updateOrCreate(['id' => $request->vehiclesIn_id], $request->all());
 
-        return redirect()->route('vehiclesIn.index')->with('success', 'Vehicle Entered Successfully!!');
+        return redirect()->route('vehiclesIn.index')->with('success', 'Vehicle registered for parking successfully!!');
     }
 
     public function show(VehicleIn $vehiclesIn)

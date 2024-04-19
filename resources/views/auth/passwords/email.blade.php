@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sign Up | JSS Parking System - Admin Template</title>
+    <title>Sign Up | CPMS - Admin Template</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,8 +80,7 @@
     <script src="{{ asset('backend/plugins/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('backend/plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('backend/plugins/screenfull/dist/screenfull.js') }}"></script>
-    <script src="{{ asset('backend/dist/js/theme.js') }}"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script src="{{ asset('backend/dist/js/theme.js') }}"></script>   
     <script>
         (function(b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l;

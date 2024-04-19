@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Sign Up | JSS Parking System - Admin Template</title>
+        <title>Sign Up | Car Parking  Management System - Admin Template</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,8 +36,8 @@
                             <div class="logo-centered">
                                 <a href="../index.html"><img src="../src/img/brand.svg" alt=""></a>
                             </div>
-                            <h3>New to JSS Parking System</h3>
-                            <p>Join us today! It takes only few steps</p>
+                            <h3>New to Car  Parking Management  System</h3>
+                            <p>Join us today! With few steps</p>
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
                                 <div class="form-group">
@@ -74,14 +74,7 @@
                                     <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                                     <i class="ik ik-eye-off"></i>
                                 </div>
-                                {{-- <div class="row">
-                                    <div class="col-12 text-left">
-                                        <label class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option1">
-                                            <span class="custom-control-label">&nbsp;I Accept <a href="#">Terms and Conditions</a></span>
-                                        </label>
-                                    </div>
-                                </div> --}}
+                                
                                 <div class="sign-btn text-center">
                                     <button type="submit" class="btn btn-theme">{{ __('Create Account') }}</button>
                                 </div>

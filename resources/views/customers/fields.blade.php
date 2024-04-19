@@ -1,7 +1,7 @@
 <form action="{{ route('customers.store') }}" class="forms-sample" method="POST">
     @csrf
     <div class="form-group">
-        <label for="exampleInputName1">Name</label>
+        <label for="exampleInputName1">Customer Name</label>
         <input type="text" name="name" value="{{ isset($customer) ? $customer->name : '' }}" class="form-control" id="exampleInputName1" placeholder="Name">
         @if (isset($customer))
         <input type="hidden" name="customer_id" value="{{ $customer->id }}">
@@ -22,14 +22,15 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword4">Company</label>
-        <input type="text" name="company" value="{{ isset($customer) ? $customer->company : '' }}" class="form-control" id="exampleInputPassword4" placeholder="Company">
+        <label for="exampleInputPassword4">Work Place</label>
+        <input type="text" name="company" value="{{ isset($customer) ? $customer->company : '' }}" class="form-control" id="exampleInputPassword4" placeholder="Work place">
     </div>
 
     <div class="form-group">
-        <label for="exampleTextarea1">Address</label>
+        <label for="exampleTextarea1">Customer's physical address</label>
         <textarea class="form-control" name="address" id="exampleTextarea1" rows="4">{{ isset($customer) ? $customer->address : '' }}</textarea>
     </div>
     <button type="submit" class="btn btn-primary mr-2">Submit</button>
-    <button class="btn btn-light">Cancel</button>
+    <button class="btn btn-light" type="reset">Cancel</button>
+    <!--<button class="btn btn-light">Cancel</button>-->
 </form>

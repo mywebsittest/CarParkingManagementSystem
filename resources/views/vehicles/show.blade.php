@@ -22,10 +22,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                        <li class="list-group-item">Per Houre Charge</li>
+                        <li class="list-group-item">Charge Per Hour </li>
                     </div>
                     <div class="col-md-8">
-                        <li class="list-group-item text-right"><strong>IQD {{ $vehicle->packing_charge }} </strong></li>
+                        <li class="list-group-item text-right"><strong>UGX {{ $vehicle->packing_charge }} </strong></li>
                     </div>
                 </div>
                     <div class="row">
@@ -33,7 +33,7 @@
                             <li class="list-group-item">Total Amount</li>
                         </div>
                         <div class="col-md-8">
-                            <li class="list-group-item text-right"><strong> IQD {{ $vehicle->duration *  $vehicle->packing_charge }}</strong></li>
+                            <li class="list-group-item text-right"><strong> UGX {{ $vehicle->duration *  $vehicle->packing_charge }}</strong></li>
                         </div>
                         </div>
 

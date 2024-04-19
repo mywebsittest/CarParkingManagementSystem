@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
-<div class="page-header">
+<div style="background-color:rgb(214, 152, 89)" class="page-header">
     <div class="row align-items-end">
         <div class="col-lg-8">
             <div class="page-header-title">
-                <i class="ik ik-inbox bg-blue"></i>
+                <i class="ik ik-inbox bg-orange"></i>
                 <div class="d-inline">
-                    <h5>Category List</h5>
+                    <h5>Vehicle Category List</h5>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sign In | Vehicle Parking Management System</title>
+    <title>Sign In | Car Parking Management System</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,12 +38,12 @@
                             <a href="../index.html"><img src="../src/img/brand.svg" alt=""></a>
                         </div>
                         <h3>Sign In to {{ config('app.name') }}</h3>
-                        <p>Happy to see you again!</p>
+                       {{-- <p>Happy to see you our esteemed CPMS user!</p>--}}
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
                             <div class="form-group">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" value="{{ old('email','admin@test.com') }}" required autocomplete="email" placeholder="email" autofocus>
+                                    name="email"  required autocomplete="email" placeholder="email" autofocus> <!--value="{{ old('email','email') }}"-->
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -52,10 +52,10 @@
                                 @enderror
                                 <i class="ik ik-user"></i>
                             </div>
-                            <div class="form-group">
+                           <div class="form-group">
                                 <input id="password" type="password"
                                     class="form-control @error('password') is-invalid @enderror" name="password"
-                                    required autocomplete="current-password" placeholder="password" value="password">
+                                    required autocomplete="current-password" placeholder="password"> <!--value="password"-->
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -63,21 +63,16 @@
                                     </span>
                                 @enderror
                                 <i class="ik ik-lock"></i>
-                            </div>
+                            </div> 
                             <div class="row">
                                 <div class="col text-left">
                                     <label class="custom-control custom-checkbox">
                                             <input class="custom-control-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                        <span class="custom-control-label">&nbsp;Remember Me</span>
+                                        <span class="custom-control-label">&nbsp;Remember me</span>
                                     </label>
                                 </div>
-                                {{-- <div class="col text-right">
-                                    @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                                </div> --}}
+                                
+                                </div> 
                             </div>
                             <div class="sign-btn text-center">
                                 <button type="submit" class="btn btn-theme">  {{ __('Login') }}</button>
@@ -102,8 +97,7 @@
     <script src="{{ asset('backend/plugins/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('backend/plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('backend/plugins/screenfull/dist/screenfull.js') }}"></script>
-    <script src="{{ asset('backend/dist/js/theme.js') }}"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script src="{{ asset('backend/dist/js/theme.js') }}"></script>    
     <script>
         (function(b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l;

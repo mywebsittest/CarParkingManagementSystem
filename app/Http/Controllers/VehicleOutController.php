@@ -30,7 +30,7 @@ class VehicleOutController extends Controller
     {
         VehicleOut::updateOrCreate(['id' => $request->vehiclesOut_id], $request->all());
         VehicleIn::where('id', $request->vehicleIn_id)->update(['status' => 1]);
-        return redirect()->route('vehiclesOut.index')->with('success', 'Vehicle Out Successfully!!');
+        return redirect()->route('vehiclesOut.index')->with('success', 'Vehicle got out of parking successfully!!');
     }
 
     public function show(VehicleOut $vehiclesOut)

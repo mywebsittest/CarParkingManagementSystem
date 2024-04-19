@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-4">
             <div class="form-group">
-                <label for="exampleInputName1">Category</label>
+                <label for="exampleInputName1">Type</label>
                 <select name="category_id" class="form-control">
                     <option value="">Select</option>
                     @foreach ($categories as $category)
@@ -67,26 +67,13 @@
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="exampleInputEmail3">Parking Charges (IQD)</label>
+                <label for="exampleInputEmail3">Parking Charges (UGX)</label>
                 <input type="number" min="1" name="packing_charge" value="{{ isset($vehicle) ? $vehicle->packing_charge : '' }}"
                     class="form-control" id="exampleInputEmail3" placeholder="Parking Charges">
             </div>
-        </div>
-        {{-- <div class="col-md-3">
-            <div class="form-group">
-                <label for="exampleInputEmail3">Vehicle Status</label>
-                <select name="status" class="form-control">
-                    <option >Select Status</option>
-                    @foreach (getVehicleStatus() as $key =>  $status)
-                        <option value="{{ $key }}" @if (isset($vehicle))
-                            {{ $vehicle->status == $key ? 'selected' : '' }}
-                    @endif>
-                    {{ $status }}</option>
-                    @endforeach
-                </select>
-            </div>
-        </div> --}}
+        </div>        
     </div>
     <button type="submit" class="btn btn-primary mr-2">Submit</button>
-    <button class="btn btn-light">Cancel</button>
+    <button class="btn btn-light" type="reset">Cancel</button>
+    <!--<button class="btn btn-light">Cancel</button> -->
 </form>

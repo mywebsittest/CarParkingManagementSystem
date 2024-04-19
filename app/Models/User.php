@@ -43,24 +43,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    // public static function booted(){
-
-    //      /** Make avata */
-
-    //     static::creating(function($model)
-    //     {
-    //         $path = 'users/avatars/';
-    //         $fontPath = public_path('fonts/Oliciy.ttf');
-    //         $char = strtoupper($model->name[0]);
-    //         $newAvatarName = rand(12,34353).time().'_avatar.png';
-    //         $dest = $path.$newAvatarName;
-
-    //         $createAvatar = makeAvatar($fontPath,$dest,$char);
-    //         $picture = $createAvatar == true ? $newAvatarName : '';
-
-    //         $model->avatar = $picture;
-    //     });
-    // }
+   
 }
 
 

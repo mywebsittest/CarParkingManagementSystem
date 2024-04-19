@@ -6,9 +6,10 @@
             <th>Name</th>
             <th style="width: 100px">Email</th>
             <th style="width: 120px">Address</th>
-            <th>Company</th>
+            <th>Work Place</th>
             <th>Phone</th>
             <th>Created At</th>
+            {{--<th>Created By</th>--}}
             <th class="nosort">Operation</th>
             <th></th>
         </tr>

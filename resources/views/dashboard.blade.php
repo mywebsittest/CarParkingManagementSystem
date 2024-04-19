@@ -5,14 +5,14 @@
                 <div class="widget-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="state">
-                            <h6>Vechile In Today</h6>
+                            <h6>Vehicle In Today</h6>
                             <h2>1,410</h2>
                         </div>
                         <div class="icon">
                             <i class="ik ik-award"></i>
                         </div>
                     </div>
-                    <small class="text-small mt-10 d-block">6% higher than last month</small>
+                    <small class="text-small mt-10 d-block">8% higher than last month</small>
                 </div>
                 <div class="progress progress-sm">
                     <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%;"></div>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <div class="row mb-15">
-                                <div class="col-9">India</div>
+                                <div class="col-9">Uganda</div>
                                 <div class="col-3 text-right">28%</div>
                                 <div class="col-12">
                                     <div class="progress progress-sm mt-5">
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-9">China</div>
+                                <div class="col-9">Kenya</div>
                                 <div class="col-3 text-right">12%</div>
                                 <div class="col-12">
                                     <div class="progress progress-sm mt-5">
@@ -156,7 +156,7 @@
                         <li class="chat-item">
                             <div class="chat-img"><img src="img/users/1.jpg" alt="user"></div>
                             <div class="chat-content">
-                                <h6 class="font-medium">James Anderson</h6>
+                                <h6 class="font-medium">James Mulungi</h6>
                                 <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing &amp; type setting industry.</div>
                             </div>
                             <div class="chat-time">10:56 am</div>
@@ -164,7 +164,7 @@
                         <li class="chat-item">
                             <div class="chat-img"><img src="img/users/2.jpg" alt="user"></div>
                             <div class="chat-content">
-                                <h6 class="font-medium">Bianca Doe</h6>
+                                <h6 class="font-medium">Opio Doe</h6>
                                 <div class="box bg-light-info">It’s Great opportunity to work.</div>
                             </div>
                             <div class="chat-time">10:57 am</div>
@@ -177,7 +177,7 @@
                         </li>
                         <li class="odd chat-item">
                             <div class="chat-content">
-                                <div class="box bg-light-inverse">Whats budget of the new project.</div>
+                                <div class="box bg-light-inverse">Whats the budget of the new project.</div>
                                 <br>
                             </div>
                             <div class="chat-time">10:59 am</div>
@@ -185,7 +185,7 @@
                         <li class="chat-item">
                             <div class="chat-img"><img src="img/users/3.jpg" alt="user"></div>
                             <div class="chat-content">
-                                <h6 class="font-medium">Angelina Rhodes</h6>
+                                <h6 class="font-medium">Nankinga Ruth</h6>
                                 <div class="box bg-light-info">Well we have good budget for the project</div>
                             </div>
                             <div class="chat-time">11:00 am</div>
@@ -213,7 +213,7 @@
                     <div class="d-flex align-items-center flex-row mt-30">
                         <div class="p-2 f-50 text-info"><i class="wi wi-day-showers"></i> <span>23<sup>°</sup></span></div>
                         <div class="p-2">
-                        <h3 class="mb-0">Saturday</h3><small>Banglore, India</small></div>
+                        <h3 class="mb-0">Saturday</h3><small>Kampala, Uganda</small></div>
                     </div>
                     <table class="table table-borderless">
                         <tbody>
@@ -258,7 +258,7 @@
                             <div class="day-number">8</div>
                             <div class="date-right">
                                 <div class="day-name">Monday</div>
-                                <div class="month">February 2018</div>
+                                <div class="month">February 2024</div>
                             </div>
                         </div>
                     </div>
@@ -362,7 +362,10 @@
 
                     <div class="qickview-wrap">
                         <div class="desc">
-                            <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
+                            <p>Fusce suscipit turp is a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. 
+                                Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. 
+                                Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -372,7 +375,8 @@
                             <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option2">
                             <span class="custom-control-label">&nbsp;</span>
                         </label>
-                        <div class="list-title"><a href="javascript:void(0)">Aenean eu pharetra arcu, vitae elementum sem. Sed non ligula molestie, finibus lacus at, suscipit mi. Nunc luctus lacus vel felis blandit, eu finibus augue tincidunt.</a></div>
+                        <div class="list-title"><a href="javascript:void(0)">Aenean eu pharetra arcu, vitae elementum sem. Sed non ligula molestie, finibus lacus at, suscipit mi. 
+                            Nunc luctus lacus vel felis blandit, eu finibus augue tincidunt.</a></div>
                         <div class="list-actions">
                             <a href="#"><i class="ik ik-eye"></i></a>
                             <a href="#"><i class="ik ik-inbox"></i></a>
@@ -382,7 +386,10 @@
                     </div>
                     <div class="qickview-wrap">
                         <div class="desc">
-                            <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
+                            <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. 
+                                Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. 
+                                Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -392,7 +399,8 @@
                             <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option3">
                             <span class="custom-control-label">&nbsp;</span>
                         </label>
-                        <div class="list-title"><a href="javascript:void(0)">Donec lectus augue, suscipit in sodales sit amet, semper sit amet enim. Duis pretium, nisi id pretium ornare, tortor nibh sodales tellus.</a></div>
+                        <div class="list-title"><a href="javascript:void(0)">Donec lectus augue, suscipit in sodales sit amet, semper sit amet enim. 
+                            Duis pretium, nisi id pretium ornare, tortor nibh sodales tellus.</a></div>
                         <div class="list-actions">
                             <a href="#"><i class="ik ik-eye"></i></a>
                             <a href="#"><i class="ik ik-inbox"></i></a>
@@ -402,7 +410,9 @@
                     </div>
                     <div class="qickview-wrap">
                         <div class="desc">
-                            <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
+                            <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. 
+                                Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. 
+                                Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
                         </div>
                     </div>
                 </div>
@@ -505,9 +515,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Tiger Nixon</td>
+                        <td>Muhangi Nixon</td>
                         <td>System Architect</td>
-                        <td>Edinburgh</td>
+                        <td>Mbarara</td>
                         <td>61</td>
                         <td>2011/04/25</td>
                         <td>$320,800</td>
@@ -520,9 +530,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Garrett Winters</td>
+                        <td>Mukulu Bonny</td>
                         <td>Accountant</td>
-                        <td>Tokyo</td>
+                        <td>Kampala</td>
                         <td>63</td>
                         <td>2011/07/25</td>
                         <td>$170,750</td>
@@ -535,9 +545,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Ashton Cox</td>
+                        <td>Agnes Tusiime</td>
                         <td>Junior Technical Author</td>
-                        <td>San Francisco</td>
+                        <td> Nirobi</td>
                         <td>66</td>
                         <td>2009/01/12</td>
                         <td>$86,000</td>
@@ -550,9 +560,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Cedric Kelly</td>
+                        <td>Rukundo Kelly</td>
                         <td>Senior Javascript Developer</td>
-                        <td>Edinburgh</td>
+                        <td>Kampala</td>
                         <td>22</td>
                         <td>2012/03/29</td>
                         <td>$433,060</td>
@@ -565,9 +575,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/5.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Airi Satou</td>
+                        <td>Akum Joan</td>
                         <td>Accountant</td>
-                        <td>Tokyo</td>
+                        <td>Jinja</td>
                         <td>33</td>
                         <td>2008/11/28</td>
                         <td>$162,700</td>
@@ -580,9 +590,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Brielle Williamson</td>
+                        <td>Okodel Williamson</td>
                         <td>Integration Specialist</td>
-                        <td>New York</td>
+                        <td>Arua</td>
                         <td>61</td>
                         <td>2012/12/02</td>
                         <td>$372,000</td>
@@ -595,9 +605,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Herrod Chandler</td>
+                        <td>Atiko Cynthia</td>
                         <td>Sales Assistant</td>
-                        <td>San Francisco</td>
+                        <td>Gulu</td>
                         <td>59</td>
                         <td>2012/08/06</td>
                         <td>$137,500</td>
@@ -610,9 +620,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Rhona Davidson</td>
+                        <td>Aceda Brian</td>
                         <td>Integration Specialist</td>
-                        <td>Tokyo</td>
+                        <td>Kampala</td>
                         <td>55</td>
                         <td>2010/10/14</td>
                         <td>$327,900</td>
@@ -625,9 +635,9 @@
                             </label>
                         </td>
                         <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                        <td>Colleen Hurst</td>
+                        <td>Mayambala Colins</td>
                         <td>Javascript Developer</td>
-                        <td>San Francisco</td>
+                        <td> Mbarara</td>
                         <td>39</td>
                         <td>2009/09/15</td>
                         <td>$205,500</td>

@@ -4,12 +4,11 @@
       <th>Id</th>
       <th>Reg #</th>
       <th>Vehicle Name</th>
-      <th>Category</th>
+      <th>Type</th>
       <th>Customer</th>
-      <th>Plat Number</th>
-      {{-- <th>Status</th> --}}
-      <th>Created By</th>
+      <th>Plat Number</th>     
       <th>Created At</th>
+      <th>Created By</th>
       <th class="nosort">Operation</th>
       <th></th>
 

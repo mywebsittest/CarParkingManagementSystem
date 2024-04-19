@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
 @include('flash')
-<div class="page-header">
+<div style="background-color:rgb(214, 152, 89)" class="page-header">
     <div class="row align-items-end">
         <div class="col-lg-8">
             <div class="page-header-title">
-                <i class="ik ik-inbox bg-blue"></i>
+                <i class="ik ik-inbox bg-orange"></i>
                 <div class="d-inline">
                     <h5>Admin List</h5>
                 </div>
@@ -31,7 +31,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="card">
-            <div class="card-header"><h3>Adminstrators List</h3></div>
+            <div class="card-header"><h3>Adminstrator List</h3></div>
             <div class="card-body">
                 @include('admins.table')
 
